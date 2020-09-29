@@ -8,6 +8,17 @@ and open the template in the editor.
     Author     : user
 */
 
+/****************************************
+* Body
+****************************************/
+body{
+    background-color: #e9ecef !important;
+}
+
+
+/****************************************
+* NavBar
+****************************************/
 #naved{
     background-color: pink !important;
 }
@@ -20,9 +31,10 @@ and open the template in the editor.
 }
 
 .greytxt{
-    color: grey;
+    color: #e9ecef;
 }
 
 .greytxt:hover{
-    color: grey;
+    color: #e9ecef;
 }
+
