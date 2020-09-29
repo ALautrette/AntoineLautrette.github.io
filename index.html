@@ -10,14 +10,27 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/index.css"/>
+        <link rel="stylesheet" href="css/nav.css"/>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     </head>
     <body>
-        <div >
-            <h1>Bienvenue sur le portfolio de Antoine LAUTRETTE (BTS SIO SLAM)</h1>
-            <img src="images/work-in-progress.png" alt="Travail en cours">
-            <h3>De magnifiques choses feront bientôt leur apparition par ici...</h3>
-        </div>
-        
+
+        <nav class="navbar fixed-top navbar-expand-lg" id="naved">
+            <a class="navbar-brand blacktxt" href="#">Accueil</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link greytxt" href="#">Home</a>
+                    <a class="nav-item nav-link blacktxt" href="#">Features</a>
+                    <a class="nav-item nav-link blacktxt" href="#">Pricing</a>
+                    <a class="nav-item nav-link blacktxt" href="#">Disabled</a>
+                </div>
+            </div>
+        </nav>
+
+
+
     </body>
 </html>
