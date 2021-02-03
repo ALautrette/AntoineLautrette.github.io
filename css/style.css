@@ -2,9 +2,23 @@
     Created on : 29 sept. 2020, 12:41:51
     Author     : user
 */
+/* Déclaration des mes fonts  */
+@font-face{
+    font-family: 'Yusei';
+    src: url('../fonts/YuseiMagic-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'Hachi';
+    src: url('../fonts/HachiMaruPop-Regular.ttf');
+}
 
 body {
-    background-color: #ffecf2 !important;
+    /* background-color: #ffecf2 !important; */
+    /* background: linear-gradient(to right, #ffecf2, hotpink); */
+    /* Pour le dégradé de rose en background */
+    background: linear-gradient(to right,lightpink, #ffecf2 );
+    
 }
 
 /* Profile container */
@@ -17,6 +31,7 @@ body {
     padding: 20px 0 10px 0;
     background: rgba(255, 255, 255, 0.562);
     top: 50% !important;
+    
 }
 
 .profile-userpic {
@@ -56,6 +71,7 @@ body {
 .profile-userbuttons {
     text-align: center;
     margin-top: 10px;
+    font-family: 'Hachi';
 }
 
 .profile-userbuttons .btn {
@@ -114,4 +130,18 @@ body {
     padding: 20px;
     background: rgba(255, 255, 255, 0.562);
     min-height: 460px;
+    color:#5a7391;
+    font-family: 'Yusei';
+}
+
+.logo-socials{
+    width: 35px;
+    height: 35px;
+}
+
+footer{
+    position: ;
+    background-color: #ffffff00;
+    bottom: 0px;
+    width: 100%;
 }
