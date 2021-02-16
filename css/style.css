@@ -3,12 +3,12 @@
     Author     : user
 */
 /* Déclaration des mes fonts  */
-@font-face{
+@font-face {
     font-family: 'Yusei';
     src: url('../fonts/YuseiMagic-Regular.ttf');
 }
 
-@font-face{
+@font-face {
     font-family: 'Hachi';
     src: url('../fonts/HachiMaruPop-Regular.ttf');
 }
@@ -17,13 +17,13 @@ body {
     /* background-color: #ffecf2 !important; */
     /* background: linear-gradient(to right, #ffecf2, hotpink); */
     /* Pour le dégradé de rose en background */
-    background: linear-gradient(to right,lightpink, #ffecf2 );
-    
+    background: linear-gradient(to right, lightpink, #ffecf2);
+
 }
 
 /* Profile container */
 .profile {
-    margin: 20px 0;
+    margin: 20px 10% !important;
 }
 
 /* Profile sidebar */
@@ -31,7 +31,8 @@ body {
     padding: 20px 0 10px 0;
     background: rgba(255, 255, 255, 0.562);
     top: 50% !important;
-    
+    max-width: 275px;
+
 }
 
 .profile-userpic {
@@ -130,11 +131,52 @@ body {
     padding: 20px;
     background: rgba(255, 255, 255, 0.562);
     min-height: 460px;
-    color:#5a7391;
+    color: #5a7391;
     font-family: 'Yusei';
 }
 
-.logo-socials{
+.logo-socials {
     width: 35px;
     height: 35px;
 }
+
+.carte {
+    position: relative;
+    text-align: center;
+    color: rgba(0, 0, 0, 0);
+    margin-right: 20px;  
+    margin-bottom: 20px; 
+    width: 45%;
+    height: max-content;
+}
+
+
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.carte img:hover{
+    opacity:0.3;
+    filter: drop-shadow(25px 8px 10px CornflowerBlue);
+    }
+
+.carte:hover{
+    color: black;
+}
+
+.description{
+    width: fit-content;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
