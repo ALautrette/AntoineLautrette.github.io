@@ -13,7 +13,7 @@ and open the template in the editor.
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
     <link rel="shortcut icon" href="favicon.ico">
 </head>
 
@@ -26,7 +26,7 @@ and open the template in the editor.
                 <div class="profile-sidebar sticky-top">
                     <!-- SIDEBAR USERPIC -->
                     <div class="profile-userpic">
-                        <a href="index.html"><img src="images/moi.jpg" class="img-responsive" alt="Photo de moi-même"></a>
+                        <a href="#apropos"><img src="images/moi.jpg" class="img-responsive" alt="Photo de moi-même"></a>
                     </div>
                     <!-- END SIDEBAR USERPIC -->
                     <!-- SIDEBAR USER TITLE -->
@@ -47,9 +47,9 @@ and open the template in the editor.
                                 src="./images/icons8-linkedin-48.png" alt="Mon profil Linkedin"></a>
                     </div>
                     <div class="profile-userbuttons">
-                        <a class="btn btn-danger" href="./pages/projets.html">Projets</a>
-                        <a href="./pages/veille.html" class="btn btn-success">Veille</a>
-                        <a class="btn btn-primary" href="https://form.123formbuilder.com/5827607/form">Me contacter</a>
+                        <a class="btn btn-danger" href="#projets">Projets</a>
+                        <a class="btn btn-primary" href="https://form.123formbuilder.com/5827607/form"
+                            target="_blank">Me contacter</a>
                     </div>
                     <!-- END SIDEBAR BUTTONS -->
                     <!-- SIDEBAR MENU -->
@@ -59,20 +59,140 @@ and open the template in the editor.
                     <!-- END MENU -->
                 </div>
             </div>
+
+            <!-- Debut du contenu de la page  -->
+
             <div class="col-md-9">
-                <div class="profile-content">
+
+                <!-- A Propos -->
+
+                <div class="profile-content" id="apropos">
                     <div class="text-center">
                         <h2>Bienvenue sur mon Portfolio</h2>
                     </div>
 
                     <p>Bonjour moi c'est Antoine :)</p>
-                    
+
                 </div>
+
+
+                <!-- Projets  -->
+
+
+                <div class="profile-content" id="projets">
+                    <div class="text-center">
+                        <h2>Projets</h2>
+                    </div>
+                    <div class="cards">
+                        <div class="carte" id="gsb" onmouseenter="afficherText(this)" onmouseleave="cacherText(this)">
+                            <img class="card-img-top" src="images/gsb.jpg" alt="Projet GSB">
+                            <div class="centered description">Mon texte si j'en met beaucoup comme ça comment ça rend
+                                dfgsgfdgdfggsdfg dfsdfsdfsdf sdfsfsdfqsf sdfsdfqsdf qsfqsfqsdf</div>
+                            <img src="images/icons8-plus.svg" alt="Voir plus" class="bottom-right btn-images-gsb"
+                                style="visibility: hidden;" onclick="afficheImagesGSB('modalGSB')">
+                        </div>
+
+                        <div class="carte" id="tennis" onmouseenter="afficherText(this)"
+                            onmouseleave="cacherText(this)">
+                            <img class="card-img-top" src="images/tennis.jpg" alt="Projet TenniScore">
+                            <div class="centered description">Mon texte si j'en met beaucoup comme ça comment ça rend
+                                dfgsgfdgdfggsdfg dfsdfsdfsdf sdfsfsdfqsf sdfsdfqsdf qsfqsfqsdf</div>
+                            <img src="images/icons8-plus.svg" alt="Voir plus" class="bottom-right btn-images-gsb"
+                                style="visibility: hidden;" onclick="afficheImagesGSB('modalTennis')">
+                        </div>
+                    </div>
+
+
+
+
+
+                    <!-- Modal GSB -->
+                    <div id="modalGSB" class="modal">
+                        <!-- The Close Button -->
+                        <span class="close" onclick="closeModal(this)">&times;</span>
+                        <!-- Le carousel -->
+                        <div id="carouselGSB" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100 modal-content" src="../images/work-in-progress.png"
+                                        alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100 modal-content" src="../images/gsb.jpg" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100 modal-content" src="../images/work-in-progress.png"
+                                        alt="Third slide">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselGSB" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselGSB" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Fin modal GSB -->
+
+                    <!-- Modal tennis -->
+
+                    <div id="modalTennis" class="modal">
+                        <!-- The Close Button -->
+                        <span class="close" onclick="closeModal(this)">&times;</span>
+                        <!-- Le carousel -->
+                        <div id="carouselTennis" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100 modal-content" src="../images/work-in-progress.png"
+                                        alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100 modal-content" src="../images/gsb.jpg" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100 modal-content" src="../images/work-in-progress.png"
+                                        alt="Third slide">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselTennis" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselTennis" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Fin modal tennis -->
+
+
+                    <!-- Fin Projets  -->
+
+                </div>
+
+
+
                 <div class="text-center p-3">
                     © 2020 Copyright: Fin (Dubitatif)
                 </div>
             </div>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 
+    <script src="js/projets.js"></script>
 </html>
