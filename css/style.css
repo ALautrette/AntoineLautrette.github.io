@@ -147,14 +147,16 @@ body {
     color: rgba(0, 0, 0, 0);
     margin-right: 20px;
     margin-bottom: 20px;
+    margin-top: 20px;
     height: max-content;
+    width: 100%;
 }
 
-@media screen and (min-width: 700px) {
+/* @media screen and (min-width: 700px) {
     .carte {
         width: 45%;
     }
-}
+} */
 
 /* Bottom right text */
 .bottom-right {
@@ -192,7 +194,7 @@ body {
 
 }
 
-.assombrirtennis{
+.assombrirtennis {
     opacity: 0.3;
     filter: drop-shadow(25px 8px 10px rgb(0, 68, 0));
 }
@@ -288,3 +290,74 @@ body {
     }
 }
 
+
+
+
+div.slider {
+    width: 80%;
+    max-width: 1000px;
+}
+
+div.slider figure {
+    position: relative;
+    width: 600%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    text-align: left;
+}
+
+div.slider figure img {
+    width: 16.6667%;
+    height: auto;
+    float: left;
+}
+
+div.slider {
+    width: 80%;
+    max-width: 1000px;
+    overflow: hidden
+}
+
+@keyframes slidy {
+    0% {
+        left: 0%;
+    }
+
+    16.6% {
+        left: -100%;
+    }
+
+    33.3% {
+        left: -200%;
+    }
+
+    50% {
+        left: -300%;
+    }
+
+    66.6% {
+        left: -400%;
+    }
+
+    83.3% {
+        left: -400%;
+    }
+
+    100% {
+        left: -500%;
+    }
+
+
+}
+
+div.slider figure {
+    position: relative;
+    width: 600%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    left: 0;
+    text-align: left;
+    animation: 30s slidy infinite;
+}
