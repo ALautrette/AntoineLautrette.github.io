@@ -20,6 +20,10 @@ body {
   background: linear-gradient(to right, lightpink, #ffecf2);
 }
 
+.titre-section{
+  color: black;
+}
+
 /* Profile container */
 .profile {
   margin: 20px 10% !important;
