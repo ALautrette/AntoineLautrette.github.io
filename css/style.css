@@ -4,152 +4,182 @@
 */
 /* Déclaration des mes fonts  */
 @font-face {
-    font-family: 'Yusei';
-    src: url('../fonts/YuseiMagic-Regular.ttf');
+  font-family: "Yusei";
+  src: url("../fonts/YuseiMagic-Regular.ttf");
 }
 
 @font-face {
-    font-family: 'Hachi';
-    src: url('../fonts/HachiMaruPop-Regular.ttf');
+  font-family: "Hachi";
+  src: url("../fonts/HachiMaruPop-Regular.ttf");
 }
 
 body {
-    /* background-color: #ffecf2 !important; */
-    /* background: linear-gradient(to right, #ffecf2, hotpink); */
-    /* Pour le dégradé de rose en background */
-    background: linear-gradient(to right, lightpink, #ffecf2);
-
+  /* background-color: #ffecf2 !important; */
+  /* background: linear-gradient(to right, #ffecf2, hotpink); */
+  /* Pour le dégradé de rose en background */
+  background: linear-gradient(to right, lightpink, #ffecf2);
 }
 
 /* Profile container */
 .profile {
-    margin: 20px 10% !important;
+  margin: 20px 10% !important;
 }
 
 /* Profile sidebar */
 .profile-sidebar {
-    padding: 20px 0 10px 0;
-    background: rgba(255, 255, 255, 0.562);
-    top: 50% !important;
-    max-width: 275px;
-
+  padding: 20px 0 10px 0;
+  background: rgba(255, 255, 255, 0.562);
+  top: 20% !important;
+  max-width: 275px;
 }
 
 .profile-userpic {
-    text-align: center;
+  text-align: center;
 }
 
 .profile-userpic img {
-    float: none;
-    margin: 0 auto;
-    width: 50%;
-    height: 50%;
-    -webkit-border-radius: 50% !important;
-    -moz-border-radius: 50% !important;
-    border-radius: 50% !important;
+  float: none;
+  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  border-radius: 50% !important;
 }
 
 .profile-usertitle {
-    text-align: center;
-    margin-top: 20px;
+  text-align: center;
+  margin-top: 20px;
 }
 
 .profile-usertitle-name {
-    color: #5a7391;
-    font-size: 16px;
-    font-weight: 600;
-    margin-bottom: 7px;
+  color: #5a7391;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 7px;
 }
 
 .profile-usertitle-job {
-    text-transform: uppercase;
-    color: #5b9bd1;
-    font-size: 12px;
-    font-weight: 600;
-    margin-bottom: 15px;
+  text-transform: uppercase;
+  color: #5b9bd1;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 15px;
 }
 
 .profile-userbuttons {
-    text-align: center;
-    margin-top: 10px;
-    font-family: 'Hachi';
+  text-align: center;
+  margin-top: 10px;
+  font-family: "Hachi";
 }
 
 .profile-userbuttons .btn {
-    text-transform: uppercase;
-    font-size: 11px;
-    font-weight: 600;
-    padding: 6px 15px;
-    margin-right: 5px;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 6px 15px;
+  margin-right: 5px;
 }
 
 .profile-userbuttons .btn:last-child {
-    margin-right: 0px;
+  margin-right: 0px;
 }
 
 .profile-usermenu {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .profile-usermenu ul li {
-    border-bottom: 1px solid #f0f4f7;
+  border-bottom: 1px solid #f0f4f7;
 }
 
 .profile-usermenu ul li:last-child {
-    border-bottom: none;
+  border-bottom: none;
 }
 
 .profile-usermenu ul li a {
-    color: #93a3b5;
-    font-size: 14px;
-    font-weight: 400;
+  color: #93a3b5;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .profile-usermenu ul li a i {
-    margin-right: 8px;
-    font-size: 14px;
+  margin-right: 8px;
+  font-size: 14px;
 }
 
 .profile-usermenu ul li a:hover {
-    background-color: #fafcfd;
-    color: #5b9bd1;
+  background-color: #fafcfd;
+  color: #5b9bd1;
 }
 
 .profile-usermenu ul li.active {
-    border-bottom: none;
+  border-bottom: none;
 }
 
 .profile-usermenu ul li.active a {
-    color: #5b9bd1;
-    background-color: #f6f9fb;
-    border-left: 2px solid #5b9bd1;
-    margin-left: -2px;
+  color: #5b9bd1;
+  background-color: #f6f9fb;
+  border-left: 2px solid #5b9bd1;
+  margin-left: -2px;
 }
 
 /* Profile Content */
 .profile-content {
-    padding: 20px;
-    background: rgba(255, 255, 255, 0.562);
-    min-height: 460px;
-    color: #5a7391;
-    font-family: 'Yusei';
-    margin-bottom: 20px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.562);
+  min-height: 460px;
+  color: #5a7391;
+  font-family: "Yusei";
+  margin-bottom: 20px;
 }
 
 .logo-socials {
-    width: 35px;
-    height: 35px;
+  width: 35px;
+  height: 35px;
+}
+
+.btn-perso {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 20px;
+  border-radius: 50px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+  font-size: small;
+}
+
+.btn-perso:hover {
+  text-decoration: none;
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
+}
+
+#btn-parcours {
+  background: lightpink;
+}
+
+#btn-projets {
+  background: salmon;
+}
+
+#btn-contact {
+  background: sandybrown;
 }
 
 .carte {
-    position: relative;
-    text-align: center;
-    color: rgba(0, 0, 0, 0);
-    margin-right: 20px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    height: max-content;
-    width: 100%;
+  position: relative;
+  text-align: center;
+  color: rgba(0, 0, 0, 0);
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  height: max-content;
+  width: 100%;
 }
 
 /* @media screen and (min-width: 700px) {
@@ -160,204 +190,207 @@ body {
 
 /* Bottom right text */
 .bottom-right {
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
 }
 
 .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .carte:hover {
-    color: black;
+  color: black;
 }
 
 .description {
-    width: fit-content;
-    cursor: default;
+  width: fit-content;
+  cursor: default;
 }
 
 .cards {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .assombrirgsb {
-    opacity: 0.3;
-    filter: drop-shadow(25px 8px 10px CornflowerBlue);
-
+  opacity: 0.3;
+  filter: drop-shadow(25px 8px 10px CornflowerBlue);
 }
 
 .assombrirtennis {
-    opacity: 0.3;
-    filter: drop-shadow(25px 8px 10px rgb(0, 68, 0));
+  opacity: 0.3;
+  filter: drop-shadow(25px 8px 10px rgb(0, 68, 0));
 }
 
 .btn-images-gsb {
-    cursor: pointer;
+  cursor: pointer;
 }
-
 
 /* Style the Image Used to Trigger the Modal */
 #myImg {
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 #myImg:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 /* The Modal (background) */
 .modal {
-    display: none;
-    /* Hidden by default */
-    position: fixed;
-    /* Stay in place */
-    z-index: 1;
-    /* Sit on top */
-    padding-top: 100px;
-    /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%;
-    /* Full width */
-    height: 100%;
-    /* Full height */
-    overflow: auto;
-    /* Enable scroll if needed */
-    background-color: rgb(0, 0, 0);
-    /* Fallback color */
-    background-color: rgba(0, 0, 0, 0.9);
-    /* Black w/ opacity */
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Black w/ opacity */
 }
 
 /* Modal Content (Image) */
 .modal-content {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
 }
 
+.modalTitle {
+  position: absolute;
+  top: auto;
+  /* color: lightpink; */
+}
 
 /* Add Animation - Zoom in the Modal */
 .modal-content,
 #caption {
-    animation-name: zoom;
-    animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
 }
 
 @keyframes zoom {
-    from {
-        transform: scale(0)
-    }
+  from {
+    transform: scale(0);
+  }
 
-    to {
-        transform: scale(1)
-    }
+  to {
+    transform: scale(1);
+  }
 }
 
 /* The Close Button */
 .close {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    color: lightpink !important;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: lightpink !important;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
 }
 
 .close:hover,
 .close:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px) {
-    .modal-content {
-        width: 100%;
-    }
+  .modal-content {
+    width: 100%;
+  }
 }
 
-
-
+/* CSS des carousel */
 
 div.slider {
-    width: 80%;
-    max-width: 1000px;
+  width: 80%;
+  max-width: 1000px;
 }
 
 div.slider figure {
-    position: relative;
-    width: 600%;
-    margin: 0;
-    padding: 0;
-    font-size: 0;
-    text-align: left;
+  position: relative;
+  width: 600%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  text-align: left;
 }
 
 div.slider figure img {
-    width: 16.6667%;
-    height: auto;
-    float: left;
+  width: 16.6667%;
+  height: auto;
+  float: left;
 }
 
 div.slider {
-    width: 80%;
-    max-width: 1000px;
-    overflow: hidden
+  width: 80%;
+  max-width: 1000px;
+  overflow: hidden;
+  top: 60% !important;
 }
 
 @keyframes slidy {
-    0% {
+  /* 0% {
         left: 0%;
-    }
+    } */
 
-    16.6% {
-        left: -100%;
-    }
+  16.6% {
+    left: -100%;
+  }
 
-    33.3% {
-        left: -200%;
-    }
+  33.3% {
+    left: -200%;
+  }
 
-    50% {
-        left: -300%;
-    }
+  50% {
+    left: -300%;
+  }
 
-    66.6% {
-        left: -400%;
-    }
+  66.6% {
+    left: -400%;
+  }
 
-    83.3% {
-        left: -400%;
-    }
+  83.3% {
+    left: -400%;
+  }
 
-    100% {
-        left: -500%;
-    }
-
-
+  100% {
+    left: -500%;
+  }
 }
 
 div.slider figure {
-    position: relative;
-    width: 600%;
-    margin: 0;
-    padding: 0;
-    font-size: 0;
-    left: 0;
-    text-align: left;
-    animation: 30s slidy infinite;
+  position: relative;
+  width: 600%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  left: 0;
+  text-align: left;
+  animation: 30s slidy infinite;
 }
+
+/* Fin css carousel */
