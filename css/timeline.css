@@ -1,8 +1,3 @@
-h1 {
-  text-align: center;
-  font-family: "Raleway", sans-serif;
-}
-
 .timeline {
   position: relative;
   padding: 1rem;
@@ -35,13 +30,14 @@ h1 {
 .timeline__item {
   padding: 1rem;
   border: 2px solid hotpink;
-  border-image: linear-gradient(to right, skyblue 0%, hotpink 100%);
+  border-image: linear-gradient(to right, #5a7391 0%, hotpink 100%);
   border-image-slice: 1;
   position: relative;
   margin: 1rem 3rem 1rem 1rem;
   clear: both;
 }
-.timeline__item:after, .timeline__item:before {
+.timeline__item:after,
+.timeline__item:before {
   content: "";
   position: absolute;
 }
@@ -61,7 +57,7 @@ h1 {
   .timeline__item:nth-of-type(2n) {
     float: right;
     margin: 1rem;
-    border-image: linear-gradient(to right, hotpink 0%, skyblue 100%);
+    border-image: linear-gradient(to right, hotpink 0%, #5a7391 100%);
     border-image-slice: 1;
   }
   .timeline__item:nth-of-type(2n):before {

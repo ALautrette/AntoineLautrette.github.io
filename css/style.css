@@ -144,7 +144,7 @@ body {
 }
 
 .btn-perso {
-  color: #fff !important;
+  color: black !important;
   text-transform: uppercase;
   text-decoration: none;
   padding: 20px;
@@ -172,7 +172,7 @@ body {
 }
 
 #btn-contact {
-  background: sandybrown;
+  background: pink;
 }
 
 .carte {
@@ -213,6 +213,20 @@ body {
 .description {
   width: fit-content;
   cursor: default;
+}
+
+.sous-titre-description{
+  font-weight: bold;
+}
+
+.justified{
+  text-align: justify;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.liste-technos{
+  text-align: start;
 }
 
 .cards {
@@ -336,7 +350,7 @@ div.slider {
 
 div.slider figure {
   position: relative;
-  width: 600%;
+  width: 800%;
   margin: 0;
   padding: 0;
   font-size: 0;
@@ -344,7 +358,7 @@ div.slider figure {
 }
 
 div.slider figure img {
-  width: 16.6667%;
+  width: 12.5%;
   height: auto;
   float: left;
 }
@@ -361,34 +375,42 @@ div.slider {
         left: 0%;
     } */
 
-  16.6% {
+  12.5% {
     left: -100%;
   }
 
-  33.3% {
+  25% {
     left: -200%;
   }
 
-  50% {
+  37.5% {
     left: -300%;
   }
 
-  66.6% {
+  50% {
     left: -400%;
   }
 
-  83.3% {
+  62.5% {
     left: -400%;
   }
 
-  100% {
+  75% {
     left: -500%;
+  }
+
+  87.5%{
+    left: -600%;
+  }
+
+  100%{
+    left: -700%;
   }
 }
 
 div.slider figure {
   position: relative;
-  width: 600%;
+  width: 800%;
   margin: 0;
   padding: 0;
   font-size: 0;
