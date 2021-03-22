@@ -18,3 +18,17 @@ function afficheImagesGSB(IdModal) {
 function closeModal(span) {
     span.parentNode.style.display = "none";
 }
+
+function slideToLeft(IdFigure){
+    var figure = document.getElementById(IdFigure);
+    var left = getValeurLeft(figure); //retourne la valeur (int) de la propriété de css left de la figure
+    if(left === 0){
+        var width = getFigureWidth(figure); //retourne la valeur (int) de la propriété de css width de la figure
+        var finalWidth = 100 - width;
+        
+    } else {
+        finalWidth = left -100;
+    }
+    figure.style.left = finalWidth + '%';
+    console.log(figure.style.left);
+}
