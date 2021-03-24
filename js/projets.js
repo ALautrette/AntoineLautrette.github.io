@@ -19,16 +19,44 @@ function closeModal(span) {
     span.parentNode.style.display = "none";
 }
 
-function slideToLeft(IdFigure){
+function slideToRight(IdFigure) {
     var figure = document.getElementById(IdFigure);
     var left = getValeurLeft(figure); //retourne la valeur (int) de la propriété de css left de la figure
-    if(left === 0){
+    var width = getFigureWidth(figure);
+    if (left === 100 - width) {
         var width = getFigureWidth(figure); //retourne la valeur (int) de la propriété de css width de la figure
-        var finalWidth = 100 - width;
-        
+        var finalWidth = 0;
+
     } else {
-        finalWidth = left -100;
+        var finalWidth = left - 100;
     }
     figure.style.left = finalWidth + '%';
-    console.log(figure.style.left);
+}
+
+function slideToLeft(IdFigure) {
+    var figure = document.getElementById(IdFigure);
+    var left = getValeurLeft(figure); //retourne la valeur (int) de la propriété de css left de la figure
+    if (left === 0) {
+        var width = getFigureWidth(figure);
+        var finalWidth = 100 - width;
+
+    } else {
+        var finalWidth = left + 100;
+    }
+    figure.style.left = finalWidth + '%';
+}
+
+function getValeurLeft(figure) {
+    var raw = figure.style.left;
+    if (raw == '') {
+        return 0;
+    }
+    var value = parseInt(raw.substring(0, raw.length - 1));
+    return value;
+}
+
+function getFigureWidth(figure) {
+    var raw = figure.style.width;
+    var value = parseInt(raw.substring(0, raw.length - 1));
+    return value;
 }

@@ -313,6 +313,10 @@ body {
   font-size: xx-large;
 }
 
+.clickable{
+  cursor: pointer;
+}
+
 /* Add Animation - Zoom in the Modal */
 .modal-content,
 #caption {
@@ -360,16 +364,6 @@ body {
 div.slider {
   width: 80%;
   max-width: 1000px;
-}
-
-div.slider figure {
-  position: relative;
-  width: 800%;
-  margin: 0;
-  padding: 0;
-  font-size: 0;
-  text-align: left;
-  left: 0%;
 }
 
 div.slider figure img {
@@ -425,7 +419,7 @@ div.slider {
 
 div.slider figure {
   position: relative;
-  width: 800%;
+  /* width: 800%; */
   margin: 0;
   padding: 0;
   font-size: 0;
