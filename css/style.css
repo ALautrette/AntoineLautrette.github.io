@@ -366,7 +366,7 @@ div.slider {
   max-width: 1000px;
 }
 
-div.slider figure img {
+#figure-GSB img{
   width: 12.5%;
   height: auto;
   float: left;
