@@ -379,44 +379,6 @@ div.slider {
   top: 60% !important;
 }
 
-/* @keyframes slidy {
-  0% {
-        left: 0%;
-    }
-
-  12.5% {
-    left: -100%;
-  }
-
-  25% {
-    left: -200%;
-  }
-
-  37.5% {
-    left: -300%;
-  }
-
-  50% {
-    left: -400%;
-  }
-
-  62.5% {
-    left: -400%;
-  }
-
-  75% {
-    left: -500%;
-  }
-
-  87.5%{
-    left: -600%;
-  }
-
-  100%{
-    left: -700%;
-  }
-} */
-
 div.slider figure {
   position: relative;
   /* width: 800%; */
