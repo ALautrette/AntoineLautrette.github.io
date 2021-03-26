@@ -186,6 +186,10 @@ body {
   width: 100%;
 }
 
+.lien-projet{
+  color: rgba(0, 0, 0, 0);
+}
+
 /* @media screen and (min-width: 700px) {
     .carte {
         width: 45%;
@@ -207,6 +211,10 @@ body {
 }
 
 .carte:hover {
+  color: black;
+}
+
+.carte:hover a{
   color: black;
 }
 
