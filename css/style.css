@@ -153,6 +153,8 @@ body {
   border: none;
   transition: all 0.4s ease 0s;
   font-size: small;
+  font-family: "Raleway", sans-serif;
+  width: 80%;
 }
 
 .btn-perso:hover {
@@ -173,6 +175,10 @@ body {
 
 #btn-contact {
   background: pink;
+}
+
+#btn-stages {
+  background: palevioletred;
 }
 
 .carte {
