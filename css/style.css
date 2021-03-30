@@ -8,11 +8,6 @@
   src: url("../fonts/YuseiMagic-Regular.ttf");
 }
 
-@font-face {
-  font-family: "Hachi";
-  src: url("../fonts/HachiMaruPop-Regular.ttf");
-}
-
 body {
   /* background-color: #ffecf2 !important; */
   /* background: linear-gradient(to right, #ffecf2, hotpink); */
@@ -20,7 +15,7 @@ body {
   background: linear-gradient(to right, lightpink, #ffecf2);
 }
 
-.titre-section{
+.titre-section {
   color: black;
 }
 
@@ -74,7 +69,6 @@ body {
 .profile-userbuttons {
   text-align: center;
   margin-top: 10px;
-  font-family: "Hachi";
 }
 
 .profile-userbuttons .btn {
@@ -165,20 +159,12 @@ body {
   transition: all 0.4s ease 0s;
 }
 
-#btn-parcours {
-  background: lightpink;
+.btn-pair {
+  background: #5a7391;
 }
 
-#btn-projets {
-  background: salmon;
-}
-
-#btn-contact {
+.btn-impair {
   background: pink;
-}
-
-#btn-stages {
-  background: palevioletred;
 }
 
 .carte {
@@ -192,8 +178,10 @@ body {
   width: 100%;
 }
 
-.lien-projet{
+.lien-projet {
   color: rgba(0, 0, 0, 0);
+  font-weight: bold;
+  font-size: xx-large;
 }
 
 /* @media screen and (min-width: 700px) {
@@ -220,7 +208,7 @@ body {
   color: black;
 }
 
-.carte:hover a{
+.carte:hover a {
   color: black;
 }
 
@@ -229,17 +217,17 @@ body {
   cursor: default;
 }
 
-.sous-titre-description{
+.sous-titre-description {
   font-weight: bold;
 }
 
-.justified{
+.justified {
   text-align: justify;
   margin-left: 10px;
   margin-right: 10px;
 }
 
-.liste-technos{
+.liste-technos {
   text-align: start;
 }
 
@@ -313,21 +301,21 @@ body {
   /* color: lightpink; */
 }
 
-.leftSlide{
+.leftSlide {
   position: absolute;
   left: 100px;
   bottom: 40%;
   font-size: xx-large;
 }
 
-.rightSlide{
+.rightSlide {
   position: absolute;
   right: 100px;
   bottom: 40%;
   font-size: xx-large;
 }
 
-.clickable{
+.clickable {
   cursor: pointer;
 }
 
@@ -380,7 +368,7 @@ div.slider {
   max-width: 1000px;
 }
 
-#figure-GSB img{
+#figure-GSB img {
   width: 12.5%;
   height: auto;
   float: left;
