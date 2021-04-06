@@ -393,3 +393,22 @@ div.slider figure {
 }
 
 /* Fin css carousel */
+
+.stages {
+  width: 60%;
+  float: left;
+
+}
+
+.taff {
+  float: right;
+  width: 40%;
+}
+
+.vector {
+  position: absolute;
+  width: 0px;
+  height: 400px;
+
+  border: 1px solid #000000;
+}
