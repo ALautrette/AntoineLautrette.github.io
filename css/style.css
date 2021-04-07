@@ -4,9 +4,7 @@
 */
 /* background: linear-gradient(to right, lightpink, #ffecf2); */
 
-
 body {
-  
   background-color: gainsboro !important;
 }
 
@@ -133,26 +131,9 @@ body {
   height: 35px;
 }
 
-.btn-perso {
-  color: black !important;
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 20px;
-  border-radius: 50px;
-  display: inline-block;
-  border: none;
-  transition: all 0.4s ease 0s;
-  font-size: small;
-  font-family: "Raleway", sans-serif;
+.btn-profile {
   width: 80%;
-}
-
-.btn-perso:hover {
-  text-decoration: none;
-  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
-  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
-  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
-  transition: all 0.4s ease 0s;
+  height: 40px;
 }
 
 .btn-pair {
@@ -297,20 +278,6 @@ body {
   /* color: lightpink; */
 }
 
-.leftSlide {
-  position: absolute;
-  left: 100px;
-  bottom: 40%;
-  font-size: xx-large;
-}
-
-.rightSlide {
-  position: absolute;
-  right: 100px;
-  bottom: 40%;
-  font-size: xx-large;
-}
-
 .clickable {
   cursor: pointer;
 }
@@ -333,18 +300,18 @@ body {
 }
 
 /* The Close Button */
-.close {
+.btn-close {
   position: absolute;
   top: 15px;
-  right: 35px;
+  right: 55px;
   color: lightpink !important;
-  font-size: 40px;
+  font-size: 80px;
   font-weight: bold;
   transition: 0.3s;
 }
 
-.close:hover,
-.close:focus {
+.btn-close:hover,
+.btn-close:focus {
   color: #bbb;
   text-decoration: none;
   cursor: pointer;
@@ -358,11 +325,6 @@ body {
 }
 
 /* CSS des carousel */
-
-div.slider {
-  width: 80%;
-  max-width: 1000px;
-}
 
 #figure-GSB img {
   width: 12.5%;
@@ -388,12 +350,27 @@ div.slider figure {
   animation: 30s slidy infinite;
 }
 
+.slide {
+  position: absolute;
+  font-size: 50px;
+}
+
+.leftSlide {
+  left: 100px;
+  bottom: 40%;
+  font-size: 50px;
+}
+
+.rightSlide {
+  right: 100px;
+  bottom: 40%;
+}
+
 /* Fin css carousel */
 
 .stages {
   width: 60%;
   float: left;
-
 }
 
 .taff {

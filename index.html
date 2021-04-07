@@ -47,22 +47,21 @@ and open the template in the editor.
                                 alt="Mon profil Linkedin"></a>
                     </div>
                     <div class="profile-userbuttons">
-                        <a class="btn-perso btn-pair" href="#parcours" rel="nofollow noopener">Parcours
-                            Scolaire</a>
+                        <a href="#parcours"><button class="btn-pair btn-profile">Parcours Scolaire</button></a>
 
                     </div>
 
                     <div class="profile-userbuttons">
-                        <a class="btn-perso btn-impair" href="#projets">Projets</a>
+                        <a href="#projets"><button class="btn-impair btn-profile">Projets</button></a>
 
                     </div>
                     <div class="profile-userbuttons">
-                        <a class="btn-perso btn-pair" href="#exp">Expériences professionnelles</a>
+                        <a href="#exp"><button class="btn-pair btn-profile">Expériences professionnelles</button></a>
 
                     </div>
                     <div class="profile-userbuttons">
-                        <a class="btn-perso btn-impair" href="https://form.123formbuilder.com/5827607/form"
-                            target="_blank">Me contacter</a>
+                        <a href="https://form.123formbuilder.com/5827607/form" target="_blank"><button
+                                class="btn-impair btn-profile">Me contacter</button></a>
                     </div>
 
                     <!-- END SIDEBAR BUTTONS -->
@@ -205,8 +204,8 @@ and open the template in the editor.
                                         target="_blank">Accéder au
                                         site</a></p>
                             </div>
-                            <img src="images/icons8-plus.svg" alt="Voir plus" class="bottom-right btn-images-gsb"
-                                style="visibility: hidden;" onclick="afficheImagesGSB('modalGSB')">
+                            <button class="bottom-right btn-voir" style="visibility: hidden;"
+                                onclick="afficheImagesGSB('modalGSB')">Voir plus</button>
                         </div>
 
                         <div class="carte" id="tennis" onmouseenter="afficherText(this)"
@@ -232,9 +231,6 @@ and open the template in the editor.
 
                             <button class="bottom-right btn-voir" style="visibility: hidden;"
                                 onclick="afficheImagesGSB('modalTennis')">Voir plus</button>
-                            <!-- <img src="images/icons8-plus.svg" alt="Voir plus" class="bottom-right btn-images-gsb"
-                                style="visibility: hidden;" onclick="afficheImagesGSB('modalTennis')"> -->
-                            <!-- Todo : Améliorer la visibilité du bouton pour voir les images -->
                         </div>
                     </div>
 
@@ -246,10 +242,10 @@ and open the template in the editor.
                     <div id="modalGSB" class="modal">
                         <h1 class="modalTitle centered">GSB</h1>
                         <!-- The Close Button -->
-                        <span class="close" onclick="closeModal(this)">&times;</span>
-                        <span class="leftSlide clickable" onclick="slideToLeft('figure-GSB')">
+                        <span class="btn-close" onclick="closeModal(this)">&times;</span>
+                        <span class="leftSlide clickable slide" onclick="slideToLeft('figure-GSB')">
                             &#12298;</span>
-                        <span class="rightSlide clickable" onclick="slideToRight('figure-GSB')">&#12299;</span>
+                        <span class="rightSlide clickable slide" onclick="slideToRight('figure-GSB')">&#12299;</span>
                         <!-- Le carousel -->
                         <div class="slider centered" id="carouselGSB">
 
@@ -273,7 +269,7 @@ and open the template in the editor.
                     <div id="modalTennis" class="modal">
                         <h1 class="modalTitle centered">TenniScore</h1>
                         <!-- The Close Button -->
-                        <span class="close" onclick="closeModal(this)">&times;</span>
+                        <span class="btn-close" onclick="closeModal(this)">&times;</span>
                         <span class="leftSlide clickable" onclick="slideToLeft('figure-tennis')">
                             &#12298;</span>
                         <span class="rightSlide clickable" onclick="slideToRight('figure-tennis')">&#12299;</span>
