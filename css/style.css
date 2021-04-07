@@ -244,8 +244,8 @@ body {
   filter: drop-shadow(25px 8px 10px rgb(0, 68, 0));
 }
 
-.btn-images-gsb {
-  cursor: pointer;
+.btn-voir {
+  background: lightpink;
 }
 
 /* Style the Image Used to Trigger the Modal */
