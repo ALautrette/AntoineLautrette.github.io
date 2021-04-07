@@ -2,13 +2,12 @@
     Created on : 29 sept. 2020, 12:41:51
     Author     : user
 */
+/* background: linear-gradient(to right, lightpink, #ffecf2); */
 
 
 body {
-  /* background-color: #ffecf2 !important; */
-  /* background: linear-gradient(to right, #ffecf2, hotpink); */
-  /* Pour le dégradé de rose en background */
-  background: linear-gradient(to right, lightpink, #ffecf2);
+  
+  background-color: gainsboro !important;
 }
 
 .titre-section {
@@ -124,9 +123,9 @@ body {
   background: rgba(255, 255, 255, 0.562);
   min-height: 460px;
   color: #5a7391;
-  /* font-family: "Yusei"; */
   font-family: monospace;
   margin-bottom: 20px;
+  font-size: large;
 }
 
 .logo-socials {
@@ -157,11 +156,11 @@ body {
 }
 
 .btn-pair {
-  background: #5a7391;
+  background: lightSlategray;
 }
 
 .btn-impair {
-  background: pink;
+  background: lightpink;
 }
 
 .carte {
