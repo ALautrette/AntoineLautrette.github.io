@@ -2,11 +2,7 @@
     Created on : 29 sept. 2020, 12:41:51
     Author     : user
 */
-/* Déclaration des mes fonts  */
-@font-face {
-  font-family: "Yusei";
-  src: url("../fonts/YuseiMagic-Regular.ttf");
-}
+
 
 body {
   /* background-color: #ffecf2 !important; */
@@ -128,7 +124,8 @@ body {
   background: rgba(255, 255, 255, 0.562);
   min-height: 460px;
   color: #5a7391;
-  font-family: "Yusei";
+  /* font-family: "Yusei"; */
+  font-family: monospace;
   margin-bottom: 20px;
 }
 
