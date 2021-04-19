@@ -229,17 +229,6 @@ body {
   background: lightpink;
 }
 
-/* Style the Image Used to Trigger the Modal */
-#myImg {
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-#myImg:hover {
-  opacity: 0.7;
-}
-
 /* The Modal (background) */
 .modal {
   display: none;
@@ -264,14 +253,6 @@ body {
   /* Black w/ opacity */
 }
 
-/* Modal Content (Image) */
-.modal-content {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-}
-
 .modalTitle {
   position: absolute;
   top: auto;
@@ -280,23 +261,6 @@ body {
 
 .clickable {
   cursor: pointer;
-}
-
-/* Add Animation - Zoom in the Modal */
-.modal-content,
-#caption {
-  animation-name: zoom;
-  animation-duration: 0.6s;
-}
-
-@keyframes zoom {
-  from {
-    transform: scale(0);
-  }
-
-  to {
-    transform: scale(1);
-  }
 }
 
 /* The Close Button */
@@ -332,22 +296,29 @@ body {
   float: left;
 }
 
+#figure-tennis img {
+  width: 12.5%;
+  height: auto;
+  float: left;
+}
+
 div.slider {
   width: 80%;
   max-width: 1000px;
   overflow: hidden;
-  top: 60% !important;
+}
+
+#carouselTennis {
+  width: 20%;
 }
 
 div.slider figure {
   position: relative;
-  /* width: 800%; */
   margin: 0;
   padding: 0;
   font-size: 0;
   left: 0;
   text-align: left;
-  animation: 30s slidy infinite;
 }
 
 .slide {
@@ -357,13 +328,13 @@ div.slider figure {
 
 .leftSlide {
   left: 100px;
-  bottom: 40%;
+  bottom: 50%;
   font-size: 50px;
 }
 
 .rightSlide {
   right: 100px;
-  bottom: 40%;
+  bottom: 50%;
 }
 
 /* Fin css carousel */
