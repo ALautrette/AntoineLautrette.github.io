@@ -220,6 +220,11 @@ body {
   filter: drop-shadow(25px 8px 10px CornflowerBlue);
 }
 
+.assombrirmdl {
+  opacity: 0.3;
+  filter: drop-shadow(25px 8px 10px gold);
+}
+
 .assombrirtennis {
   opacity: 0.3;
   filter: drop-shadow(25px 8px 10px rgb(0, 68, 0));
