@@ -115,6 +115,8 @@ body {
   margin-left: -2px;
 }
 
+
+
 /* Profile Content */
 .profile-content {
   padding: 20px;
@@ -124,6 +126,10 @@ body {
   font-family: monospace;
   margin-bottom: 20px;
   font-size: large;
+}
+
+#apropos {
+  min-height: fit-content;
 }
 
 .logo-socials {
