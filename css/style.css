@@ -8,13 +8,18 @@ body {
   background-color: gainsboro !important;
 }
 
-.titre-section {
-  color: black;
+@media only screen and (min-width: 768px) {
+  .profile {
+    margin: 20px 10% !important;
+  }
+
+  .profile-sidebar {
+    max-width: 275px;
+  }
 }
 
-/* Profile container */
-.profile {
-  margin: 20px 10% !important;
+.titre-section {
+  color: black;
 }
 
 /* Profile sidebar */
@@ -22,7 +27,8 @@ body {
   padding: 20px 0 10px 0;
   background: rgba(255, 255, 255, 0.562);
   top: 20% !important;
-  max-width: 275px;
+  /* max-width: 275px; */
+  margin-bottom: 10px;
 }
 
 .profile-userpic {
@@ -366,4 +372,9 @@ div.slider figure {
   height: 400px;
 
   border: 1px solid #000000;
+}
+
+.libelle-exp {
+  color: #000000;
+  font-size: larger;
 }
