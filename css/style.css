@@ -378,3 +378,7 @@ div.slider figure {
   color: #000000;
   font-size: larger;
 }
+
+.border-exp {
+  border:lightpink dashed;
+}
