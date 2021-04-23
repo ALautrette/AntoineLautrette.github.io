@@ -121,8 +121,6 @@ body {
   margin-left: -2px;
 }
 
-
-
 /* Profile Content */
 .profile-content {
   padding: 20px;
@@ -380,5 +378,41 @@ div.slider figure {
 }
 
 .border-exp {
-  border:lightpink dashed;
+  border: lightpink dashed;
+}
+
+.img-cpt {
+  width: 15%;
+  margin-right: 10px;
+}
+
+.img-cpt img {
+  width: 100%;
+}
+
+.img-cpt p {
+  color: #000000;
+  font-weight: bold;
+}
+
+.cpt {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+
+
+#competences hr {
+  border: 0.5px #000000 solid;
+}
+
+#anglais {
+  width: 40%;
+}
+
+@media only screen and (max-width: 768px) {
+  .img-cpt {
+    width: 90%;
+  }
 }
