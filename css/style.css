@@ -137,8 +137,13 @@ body {
 }
 
 .logo-socials {
-  width: 35px;
-  height: 35px;
+  width: 40px;
+  height: 40px;
+}
+
+#linkedin{
+  width: 45px;
+  height: 45px;
 }
 
 .btn-profile {
@@ -381,7 +386,7 @@ div.slider figure {
 }
 
 .img-cpt {
-  width: 15%;
+  width: 12%;
   margin-right: 10px;
 }
 
@@ -408,7 +413,7 @@ div.slider figure {
 }
 
 #anglais {
-  width: 40%;
+  width: 35%;
 }
 
 @media only screen and (max-width: 768px) {
