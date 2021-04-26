@@ -450,6 +450,10 @@ div.slider figure {
   width: 100%;
 }
 
+.mb-20 {
+  margin-bottom: 20px;
+}
+
 .veille {
   border: lightpink dashed;
   margin-bottom: 20px;
