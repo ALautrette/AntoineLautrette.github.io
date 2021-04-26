@@ -141,7 +141,7 @@ body {
   height: 40px;
 }
 
-#linkedin{
+#linkedin {
   width: 45px;
   height: 45px;
 }
@@ -406,8 +406,6 @@ div.slider figure {
   align-items: baseline;
 }
 
-
-
 #competences hr {
   border: 0.5px #000000 solid;
 }
@@ -450,4 +448,24 @@ div.slider figure {
 
 .centre-img-right {
   width: 100%;
+}
+
+#veille-web {
+  border: 0.5px #000000 solid;
+  margin-bottom: 20px;
+}
+
+.veille-flex {
+  display: flex;
+  align-items: center;
+}
+
+.veille-flex img {
+  margin-left: 10px;
+  width: 10%;
+}
+
+.veille-flex {
+  display: flex;
+  align-items: center;
 }
