@@ -420,4 +420,34 @@ div.slider figure {
   .img-cpt {
     width: 40%;
   }
+  .illustration-centre {
+    width: 90% !important;
+  }
+
+  .centre {
+    flex-wrap: wrap !important;
+  }
+}
+
+.centre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.illustration-centre {
+  width: 40%;
+}
+
+.illustration-centre img {
+  width: 100%;
+}
+
+.centre-description {
+  width: 100%;
+}
+
+.centre-img-right {
+  width: 100%;
 }
