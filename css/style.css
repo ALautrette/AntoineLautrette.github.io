@@ -407,7 +407,7 @@ div.slider figure {
 }
 
 #competences hr {
-  border: 0.5px #000000 solid;
+  border: 2px lightpink dashed;
 }
 
 #anglais {
@@ -450,8 +450,8 @@ div.slider figure {
   width: 100%;
 }
 
-#veille-web {
-  border: 0.5px #000000 solid;
+.veille {
+  border: lightpink dashed;
   margin-bottom: 20px;
 }
 
@@ -468,4 +468,15 @@ div.slider figure {
 .veille-flex {
   display: flex;
   align-items: center;
+}
+
+#veille-lara {
+  width: 12%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#flex-lara {
+  align-items: flex-end;
+  justify-content: space-between;
 }

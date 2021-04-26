@@ -73,7 +73,7 @@ and open the template in the editor.
                     </div>
 
                     <div class="profile-userbuttons">
-                        <a href="#veille"><button class="btn-impair btn-profile">Veille</button></a>
+                        <a href="#veille"><button class="btn-impair btn-profile">Veille technologique</button></a>
 
                     </div>
 
@@ -233,7 +233,7 @@ and open the template in the editor.
                     <div class="centre">
                         <img class="illustration-centre" src="images/centres/tennis-5782695_960_720.jpg" alt="Tennis">
                         <div>
-                            <h1 class="text-center">Le tennis</h1>
+                            <h2 class="text-center">Le tennis</h2>
                             <p class="justified">Le tennis est une passion transmise par mes parents. J'ai participé à
                                 de nombreuses compétitions lors de mon adolescence. Aujourd'hui, je suis classé 15/5.
                             </p>
@@ -242,7 +242,7 @@ and open the template in the editor.
                     </div>
                     <div class="centre">
                         <div class="centre-description">
-                            <h1 class="text-center">Les voyages</h1>
+                            <h2 class="text-center">Les voyages</h2>
                             <p class="justified">Le voyage a toujours fait partie de ma vie. J'ai eu la chance de
                                 beaucoup partir en vacances avec ma famille dans les quatre coins de la France et du
                                 monde. J'adore découvrir de nouvelles cultures. J'ai la volonté de passer une partie de
@@ -258,7 +258,7 @@ and open the template in the editor.
                     <div class="centre">
                         <img src="images/centres/jv.jpg" alt="Les jeux vidéo" class="illustration-centre">
                         <div>
-                            <h1 class="text-center">Les jeux vidéo</h1>
+                            <h2 class="text-center">Les jeux vidéo</h2>
                             <p class="justified">Je suis passionné par les jeux vidéo et l'e-sport. Les jeux vidéo m'ont
                                 accompagné pendant la majeure partie de ma vie. Aujourd'hui, je joue principalement à
                                 Counter Strike.</p>
@@ -533,7 +533,7 @@ and open the template in the editor.
 
                 <div class="profile-content" id="veille">
                     <div class="text-center">
-                        <h2 class='titre-section'>Veille</h2>
+                        <h2 class='titre-section'>Veille technologique</h2>
                     </div>
                     <p class="justified">J'effectue une veille technologique de manière régulière. Ma veille est accès
                         majoritairement vers : <strong>le développement Web</strong>.</p>
@@ -546,73 +546,80 @@ and open the template in the editor.
                         <li>Documentation</li>
                         <li>Newsletters</li>
                     </ul>
-                    <div id="veille-web">
+                    <div class="veille">
                         <h3 class="text-center">Les technologies du Web</h3>
                         <p class="justified">Je m'interesse aux nouveautés du monde du Web. Afin de me renseigner, je
-                            suis plusieurs chaînes YouTube tels que : </p>
+                            suis plusieurs chaînes YouTube telles que : </p>
                         <ul>
                             <li>Dev Theory, leur slogan : "Devenir et rester un bon développeur JavaScript"</li>
                             <li>Grafikart</li>
                         </ul>
+                        
                         <p class="justified"> De plus, j'effectue une veille plus poussée sur Laravel.</p>
+                        <hr>
                         <p class="justified"><strong>Laravel</strong> est un framework web open-source écrit en PHP
                             respectant le
                             principe modèle-vue-contrôleur. Il est le framework back-end le plus "staré" sur
                             GitHub.</p>
-                        <div class="veille-flex">
-                            <img src="images/competences/Laravel.svg.png" alt="Logo de Laravel">
+                        <div class="veille-flex" id="flex-lara">
+
                             <div>
 
                                 <p class="justified">Afin de me maintenir à jour sur cette technologie, je suis des
-                                    chaînes YouTube tels que :</p>
+                                    chaînes YouTube telles que :</p>
                                 <ul>
                                     <li>Laravel Daily</li>
                                     <li>Nord Coders</li>
                                 </ul>
-
+                                <p class="justified">Ou encore sur des sites tels que :</p>
+                                <ul>
+                                    <li>laravel.sillo.org</li>
+                                    <li>laravel-news.com</li>
+                                </ul>
                             </div>
+                            <img src="images/competences/Laravel.svg.png" alt="Logo de Laravel" id="veille-lara">
 
                         </div>
-                        <p class="justified">Ou encore sur des sites tels que :</p>
-                        <ul>
-                            <li>laravel.sillo.org</li>
-                            <li>laravel-news.com</li>
-                        </ul>
+
 
                     </div>
-                    <div id="autres">
+                    <div class="veille">
                         <h3 class="text-center">Autres</h3>
-                        <p>Pour ce qui est des autres domaines du développement, je suis également des chaînes Youtube
-                            tels que :</p>
+                        <p class="justified">Pour ce qui est des autres domaines du développement, je suis également des
+                            chaînes Youtube
+                            telles que :</p>
                         <ul>
                             <li>Underscore_ : "Le talk-show des passionnés de l'IT"</li>
                             <li>Defend Inelligence : chaîne d'un spécialiste de l'IA</li>
-                            <li>Les Frères Codeurs : développement informatique généraliste, avec une touche d'humour
+                            <li>Les Frères Codeurs : développement informatique généraliste avec une touche d'humour
                             </li>
                         </ul>
                         <hr>
-                        <p class="justified">Il y a certaines technos sur lesquels je me suis plus interssées notamment
+                        <p class="justified">Il y a certaines technologies sur lesquelles je me suis plus interessées
+                            notamment
                             : </p>
+                        <h4 class="text-center">Rust</h4>
                         <div class="veille-flex">
                             <img src="images/veille/Rust_programming_language_black_logo.svg.png" alt="Logo Rust">
                             <div>
-                                <h4 class="text-center">Rust</h4>
+
                                 <p class="justified">"Un langage permettant à chacun de construire des logiciels fiables
                                     et efficaces." Rust est un language bas niveau direct concurrent du C. Présent dans
                                     le navigateur Mozilla Firefox ou encore sur le logiciel Discord. Il est également le
-                                    language le plus aprécié. Il a été élu le language le plus aimé par ses développeurs
+                                    language le plus apprécié. Il a été élu le language le plus aimé par ses
+                                    développeurs
                                     les cinq dernières années sur le sondage annuel de Stack Overflow.</p>
                             </div>
 
                         </div>
-                        <hr>
+                        <h4 class="text-center">React native</h4>
                         <div class="veille-flex">
-                            <img src="images/veille/React-icon.svg.png" alt="Logo React">
+                            <img src="images/veille/react-logo-1000-transparent.png" alt="Logo React">
                             <div>
-                                <h4 class="text-center">React native</h4>
+
                                 <p class="justified">React Native est un framework d'applications mobiles open source
                                     créé par Facebook. Il est utilisé pour développer des applications mobiles
-                                    cross-plateform</p>
+                                    cross-plateform.</p>
                             </div>
 
                         </div>
@@ -620,13 +627,14 @@ and open the template in the editor.
                         <p class="justified">Je m'interesse également aux cryptomonnaies et la technologie de blockchain
                             notamment :
                         </p>
+                        <h4 class="text-center">Ethereum</h4>
                         <div class="veille-flex">
                             <img src="images/veille/ETHEREUM.png" alt="Logo ETH">
                             <div>
-                                <h4 class="text-center">Ethereum</h4>
+
                                 <p>Ethereum est un protocole d'échanges décentralisés permettant la création par les
                                     utilisateurs de contrats intelligents. La blockchain Ethereum a été développé à
-                                    l'aide de son propre language : Solidity</p>
+                                    l'aide de son propre language : Solidity.</p>
                             </div>
                         </div>
 
